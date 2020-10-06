@@ -4,7 +4,7 @@ The code provided in this repository belongs to the publication "The sentiment i
 
 The script files in the Functions folder contain helper functions to construct, test and apply the dictionary. The Docs.zip file contains sample documents for use in combination with the scripts. The file should be extracted to the root of the repository before running the scripts. The Sources folder contains a sample dictionary and a sample of hand-coded sentences. Note that both the dictionary and the sentence classifications are not representative of a proper implementation of this method, they are for illustrative purposes only. Finally, the build folder contains a set of executable binaries built from the GloVe source, which can be found in the glove folder. The Data folder is used for storing the GloVe output files.
 
-The code provided here has only been tested on Linux. As of yet there are no pre-compiled GloVe binaries for Windows available, which means the workflow presented here can only be used on a Unix-based system (Linux or MacOS).
+The code provided here has only been tested on Linux. As of yet there are no pre-compiled GloVe binaries for Windows available, which means the workflow presented here can only be used on a Unix-based system (Linux or MacOS). A solution for Windows is to use the R package [word2vec](https://cran.r-project.org/web/packages/word2vec/index.html)
 
 ## Dependencies
 Besides the GloVe binaries, the following R packages are required:
